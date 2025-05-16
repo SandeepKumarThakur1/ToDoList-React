@@ -1,7 +1,3 @@
-from pathlib import Path
-
-# Content for the Todo List App project plan in markdown format
-todo_project_plan_md = """
 # 💡 Project Idea: Todo List App
 
 ## 🎯 Kya banayenge?
