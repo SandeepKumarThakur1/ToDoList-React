@@ -61,14 +61,16 @@ Ek simple React app jisme user:
 
 ## 🧾 File Structure Idea:
 
+```
 TodoListApp/
 ├── src/
-│ ├── App.jsx
-│ ├── components/
-│ │ ├── TodoInput.jsx
-│ │ └── TodoList.jsx
-│ ├── index.css
-│ └── main.jsx
+│   ├── App.jsx
+│   ├── components/
+│   │   ├── TodoInput.jsx
+│   │   └── TodoList.jsx
+│   ├── index.css
+│   └── main.jsx
 ├── tailwind.config.js
 ├── package.json
 └── README.md
+```
