@@ -1,19 +1,19 @@
 # 💡 Project Idea: Todo List App
 
-## 🎯 Kya banayenge?
+## 🎯 What will we build?
 
-Ek simple React app jisme user:
+A simple React app where the user can:
 
-* Apna task likh sakta hai (📝 input field)
-* “Add” button dabakar task list mein add kar sakta hai
-* Neeche usko ek task list dikhayi degi
-* Har task ke aage ❌ delete button hoga jo us task ko hata dega
+* Write tasks in an **📝 input field**
+* Add them to a list by clicking the **“Add”** button
+* See a list of tasks below the input
+* Delete a task by clicking the **❌ delete button** next to it
 
 ---
 
-## 🧱 Layout (Design ka Idea):
+## 🧱 Layout (Design Idea):
 
-💻 **Screen simple and centered hoga**:
+💻 **The screen will be simple and centered**:
 
 ### 📥 Input Section:
 
@@ -27,35 +27,35 @@ Ek simple React app jisme user:
 
 ---
 
-## 🔧 Kya sikhenge is project se?
+## 🔧 What will you learn from this project?
 
-| Feature                 | Kaunsa React Hook use hoga |
-| ----------------------- | -------------------------- |
-| Task add karna          | `useState()`               |
-| Task delete karna       | `useState()`               |
-| Input control karna     | `useState()`               |
-| Task complete mark (bonus) | `useState()`           |
+| Feature                        | React Hook to be used     |
+|-------------------------------|---------------------------|
+| Adding a task                 | `useState()`              |
+| Deleting a task               | `useState()`              |
+| Handling input control        | `useState()`              |
+| Marking task as complete (bonus) | `useState()`           |
 
 ---
 
 ## ✅ Extra Features (Bonus):
 
-* ✅ Checkbox: Task complete karne ke liye (line-through effect)
+* ✅ Checkbox to mark task as complete (with line-through effect)
 * 🗑️ "Clear All" Button
-* 💡 Dark/Light Mode toggle (via `useState`)
-* 💾 Tasks localStorage mein save karna (via `useEffect`)
+* 💡 Dark/Light Mode toggle (using `useState`)
+* 💾 Save tasks in localStorage (using `useEffect`)
 
 ---
 
 ## 🧠 Challenge Level:
 
-* **Beginners to Intermediate**
-* `useState` ka real-world use case samajhne ke liye
-* List manipulation aur dynamic rendering practice karne ke liye
+* **Beginner to Intermediate**
+* Great for understanding real-world use of `useState`
+* Practice with list manipulation and dynamic rendering
 
 ---
 
-## 🧾 File Structure Idea:
+## 🧾 Suggested File Structure:
 
 ```
 TodoListApp/

@@ -58,7 +58,9 @@ const App = () => {
       </form>
 
       {taskList.length === 0 ? (
-        <p className="text-center text-gray-500">No tasks available. Add some! 😄</p>
+        <p className="text-center text-gray-500">
+          No tasks available. Add some! 😄
+        </p>
       ) : (
         <ul className="space-y-3">
           {taskList.map((item, index) => (
